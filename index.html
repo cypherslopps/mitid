@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Mtid Login</title>
+</head>
+<body>
+    <div class="wrapper">
+        <!-- user id form -->
+        <form class="form form-container" data-type="user-id">
+            <input type="text" name="userid" placeholder="user id" />
+            <button type="submit">Continue</button>
+        </form>
+
+        <!-- Loader -->
+        <div class="loader form-container hide" data-type="loader">
+            Loading
+        </div>
+
+        <!-- Status -->
+        <form class="form form-container hide" data-type="status">
+            <input type="text" name="status" placeholder="status" />
+            <button type="submit">Continue</button>
+        </form>
+
+        <!-- Password -->
+        <form class="form form-container hide" data-type="status">
+            <input type="password" name="password" placeholder="password" />
+            <button type="submit">Continue</button>
+        </form>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

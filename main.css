@@ -1,0 +1,35 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: inter;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.hide {
+    display: none;
+}
+
+.wrapper {
+    width: 300px;
+    height: 60vh;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 2px;
+    margin-top: 15px;
+    padding: 10px 12px
+}
+
+.form-container {
+    height: 100%;
+}
+
